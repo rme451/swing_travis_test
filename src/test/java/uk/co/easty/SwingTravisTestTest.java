@@ -29,7 +29,7 @@ public class SwingTravisTestTest {
         SwingTravisTest frame = GuiActionRunner.execute(() -> new SwingTravisTest());
         window = new FrameFixture(frame);
         window.show(); // shows the frame to test
-        window.maximize();
+//        window.maximize();
 
 //        Robot robot = BasicRobot.robotWithNewAwtHierarchy();
 //        robot.settings().delayBetweenEvents(1000);
